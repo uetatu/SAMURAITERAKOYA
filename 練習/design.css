@@ -1,0 +1,251 @@
+/* PC用スタイル */
+@media screen and (min-width: 768px) {
+
+body{
+    max-width: 1080px;
+    min-width: 960px;
+    margin: 0 auto 0 auto;
+}
+    
+/* ヘッダー */
+header{
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+    font-size: 34px;
+    justify-content: space-between;
+}
+
+a{
+    margin: 0 auto;
+}
+
+#nav-pc{
+    display: flex;
+    margin: 15px 170px 0px 170px;
+}
+
+#works{
+    padding: 10px 0 0 0 ;
+}
+
+#about{
+    margin: 10px 0 10px 200px ;
+}
+
+#profile{
+    border: solid;
+    padding: 10px 10px 0 10px;
+    margin: auto 0;
+}
+
+#camera{
+    width: auto;
+    height: 400px;
+    padding: 10px 8px 10px 0;
+    margin: 0 auto;
+    display: flex;
+}
+
+/* about */
+section{
+    font-size: 18px;
+}
+
+#title{
+    text-align: center;
+    font-size: 34px;
+}
+
+#title-about{
+    margin: 0 240px;
+    display: flex;
+}
+
+#about-img{
+    width: 141px;
+    height: 142px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 40px 20px 0 0;
+}
+
+#name{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+#info{
+    display: flex;
+    flex-direction: column;
+}
+
+/* Works */
+
+#works-div{
+    text-align: center;
+    margin: 0 240px;
+    display: flex;
+    width: 170px;
+    word-wrap: break-word;
+}
+
+#works-img{
+    width: 179px;
+    height: 134px;
+}
+
+#left{
+    padding: 10px;
+}
+
+#center{
+    padding: 10px;
+}
+
+#right{
+    padding: 10px;
+}
+
+#footer{
+    padding-top: 20px;
+    text-align: center;
+}
+
+}
+
+/* スマホ用スタイル */
+
+@media screen and (max-width: 767px) {
+
+    body{
+        min-width: 375px;
+        margin: 0;
+    }
+    /* ヘッダー */
+header{
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+    font-size: 34px;
+    justify-content: space-between;
+}
+
+a{
+    margin: 0 auto;
+}
+
+#nav-pc{
+    display: flex;
+    margin: 5px 170px 0px 70px;
+}
+
+#works{
+    margin: 10px 0 0 60px ;
+}
+
+#about{
+    margin: 10px 0 10px 350px ;
+}
+
+#profile{
+    border: solid;
+    padding: 0 10px;
+    margin: auto 0;
+}
+
+#camera{
+    width: auto;
+    height: 400px;
+    padding: 10px 0 10px auto;
+    margin: 0 auto;
+    display: flex;
+}
+
+/* about */
+section{
+    font-size: 18px;
+}
+
+#title{
+    padding-left: 440px;
+    text-align: center;
+    font-size: 34px;
+}
+
+#title-about{
+    margin: 0 130px;
+    display: flex;
+}
+
+#about-img{
+    width: 141px;
+    height: 142px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 20px 10px 0 15px;
+}
+
+#name{
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 0 0 50px ;
+}
+
+ul{
+    margin: 15px 0 0 35px ;
+}
+
+#info{
+    display: flex;
+    flex-direction: column;
+}
+
+#name{
+    width: 500px;
+}
+
+/* Works */
+
+#works-div{
+    text-align: center;
+    margin: 0 150px;
+    display: flex;
+    flex-direction: column;
+    width: 170px;
+    word-wrap: break-word;
+}
+
+#works-img{
+    width: 647px;
+    height: 580px;
+    padding-top: 10px;
+}
+
+#left{
+    padding: 10px;
+    width: 647px;
+    text-align: center;
+}
+
+#center{
+    padding: 10px;
+    width: 647px;
+    text-align: center;
+}
+
+#right{
+    padding: 10px;
+    width: 647px;
+    text-align: center;
+}
+
+#footer{
+    padding-top: 20px;
+    padding-left: 350px;
+    width: 500px;
+    margin: 0 auto;
+}
+
+}
