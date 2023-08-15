@@ -1,0 +1,173 @@
+/* PC用スタイル */
+
+body{
+    width: 1200px;
+    margin: 0 auto 0 auto;
+}
+    
+/* ヘッダー */
+header{
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+    font-size: 34px;
+    justify-content: space-between;
+}
+
+a{
+    margin: 0 auto;
+}
+
+#nav-pc{
+    display: flex;
+    margin: 15px 0 0 0;
+    justify-content: center;
+    align-items: center;
+}
+
+#works{
+    margin: 0;
+    padding: 0 0 0 30px;
+}
+
+#about{
+    margin: 10px 0 10px 200px ;
+}
+
+#profile{
+    border: solid;
+    padding: 10px 10px 0 10px;
+    margin: auto 0;
+}
+
+#camera{
+    width: auto;
+    height: 400px;
+    padding: 10px 8px 10px 0;
+    margin: 0 auto;
+    display: flex;
+}
+
+/* about */
+section{
+    font-size: 18px;
+}
+
+h2{
+    text-align: center;
+    font-size: 34px;
+    margin: 25px 220px 25px 220px;
+    width: 500px;
+}
+
+#title-about{
+    width: 630px;
+    margin: 0 170px;
+    display: flex;
+}
+
+#about-img{
+    width: 141px;
+    height: 142px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 40px 20px 0 0;
+}
+
+#name{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+#info{
+    display: flex;
+    flex-direction: column;
+}
+
+/* Works */
+
+#works-div{
+    text-align: center;
+    margin: 0 180px;
+    display: flex;
+    width: 170px;
+    word-wrap: break-word;
+}
+
+#works-img{
+    width: 179px;
+    height: 134px;
+}
+
+section{
+    margin: 0 120px 0 120px;
+}
+
+#left{
+    padding: 10px;
+}
+
+#center{
+    padding: 10px;
+}
+
+#right{
+    padding: 10px;
+}
+
+#footer{
+    width: 300px;
+    margin: 0 480px 0 480px;
+}
+
+
+/* スマホ用スタイル */
+
+@media screen and (max-width: 767px) {
+
+    body{
+        min-width: 375px;
+        margin: initial;
+        padding: initial;
+    }
+    /* ヘッダー */
+    #nav-pc{
+        display: flex;
+        margin: 15px 0 0 0;
+       
+    }
+    #camera{
+        width: auto;
+        height: 400px;
+        display: block;
+        padding: 10px 0  10px 0
+    }
+    section{
+        margin: 0;
+    }
+    h2{
+        margin: 25px 330px 25px 330px;
+    }
+    #title-about{
+        margin: 0 280px;
+        display: flex;
+        width: 630px;
+    }
+    #works-div{
+        display:flex;
+        flex-flow: column;
+        width: 730px;
+        margin: 10px 200px 0 200px;
+    }
+    #works-img{
+        width: auto;
+        height: 580px;
+    }
+    #footer{
+        width: 300px;
+        margin: 0 450px 0 450px;
+    }
+
+
+}
