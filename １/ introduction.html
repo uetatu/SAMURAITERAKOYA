@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="intro.css" type="text/css">
+    <title>フィットネス紹介</title>
+</head>
+<body>
+    <header>
+        <div style="position: relative; min-height: 275px;">
+            <img src="img/27300612_m.jpg" alt="icon" class="logo">
+            <div class="backcolor">
+                <img src="img/logo1.png" alt="ロゴ" class="header-logo">
+            </div>
+            <div style="position: absolute; top: 9.5vw; width: 100%;">
+                <h1 style="color: #e77903; text-shadow: 0 0 5px white; ">ブログ記事紹介</h1>
+                <h3 style="color: #333; text-shadow: 0 0 5px white;">近くにあるフィットネスクラブを、<br class="sp-br">ジャンル・エリアから検索できます。</h3>
+                <form action="" method="post" class="form"> <!-- 「action」属性に検索サイトURL -->
+                    <div class="column">
+                        <input type="search" name="search" placeholder="キーワードを入力" class="search">
+                        <div style="display: flex;">
+                            <select name="sources" id="sources" class="custom-select sources" placeholder="ジャンル">
+                                <option value="null">指定なし</option>
+                                <option value="zero">000</option>
+                                <option value="one">001</option>
+                                <option value="two">002</option>
+                            </select>
+                            <select name="sources" id="sources" class="custom-select sources" placeholder="エリア">
+                                <option value="null">指定なし</option>
+                                <option value="three">003</option>
+                                <option value="four">004</option>
+                                <option value="five">005</option>
+                            </select>
+                        </div>
+                    </div>
+                    <input type="submit" name="submit" value="&#xf002;" class="fas button">
+                </form>
+            </div>
+        </div>
+    </header>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+</html>
